@@ -147,9 +147,25 @@ const PROJECTS = [
     desc:"Premium business showcase website for an interior design and construction company. Portfolio gallery, service pages, and SEO-optimized lead capture.",
     tech:["React","Tailwind CSS","SEO"],
     result:"3x increase in client inquiries",
-    demo:"https://nijamuthdeen.github.io/uvindia-website/",
+    demo:"https://uv-india.vercel.app/",
     img:"https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=700&q=80",
     imgAlt:"Interior design and construction",
+  },
+  {
+    title:"Stoic Fitness",
+    sub:"Discipline Today. Strength Tomorrow",
+   desc: "A premium fitness platform designed for modern gyms and personal trainers. Features workout programs, trainer profiles, transformation galleries, membership plans, BMI calculator, and responsive user experience."
+    tech: [
+    "React",
+    "CSS3",
+    "Framer Motion",
+    "Responsive Design"
+  ],
+      result: "Modern fitness platform with an engaging user experience",
+    demo: "https://stoic-fitness.vercel.app/",
+    img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=700&q=80",
+
+  imgAlt: "Modern fitness gym with strength training equipment
   },
 ];
 
