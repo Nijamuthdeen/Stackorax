@@ -152,21 +152,26 @@ const PROJECTS = [
     imgAlt:"Interior design and construction",
   },
   {
-    title:"Stoic Fitness",
-    sub:"Discipline Today. Strength Tomorrow",
-   desc: "A premium fitness platform designed for modern gyms and personal trainers. Features workout programs, trainer profiles, transformation galleries, membership plans, BMI calculator, and responsive user experience."
-    tech: [
+  title: "Stoic Fitness",
+  sub: "Discipline Today. Strength Tomorrow",
+
+  desc: "A premium fitness platform designed for modern gyms and personal trainers. Features workout programs, trainer profiles, transformation galleries, membership plans, BMI calculator, and responsive user experience.",
+
+  tech: [
     "React",
     "CSS3",
     "Framer Motion",
-    "Responsive Design"
+    "Responsive Design",
   ],
-      result: "Modern fitness platform with an engaging user experience",
-    demo: "https://stoic-fitness.vercel.app/",
-    img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=700&q=80",
 
-  imgAlt: "Modern fitness gym with strength training equipment
-  },
+  result: "Modern fitness platform with an engaging user experience",
+
+  demo: "https://stoic-fitness.vercel.app/",
+
+  img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=700&q=80",
+
+  imgAlt: "Modern fitness gym with strength training equipment",
+},
 ];
 
 /* ── 4 team members ── */
