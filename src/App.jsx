@@ -915,10 +915,15 @@ function Footer() {
           <div>
             <div className="font-syne grad2" style={{ fontWeight:800, fontSize:"1.3rem", letterSpacing:"-.025em", marginBottom:12 }}>STACKORAX</div>
             <p style={{ color:"rgba(240,240,255,.4)", fontSize:".83rem", lineHeight:1.7, maxWidth:240, marginBottom:16 }}>
-              Engineering scalable digital products for startups, founders, and businesses that want to grow.
+              Building modern websites, custom software, and scalable digital solutions that help startups and businesses grow online.
             </p>
             <div style={{ display:"flex", gap:9 }}>
-              {[{ic:"📸",href:"#"},{ic:"💼",href:"#"},{ic:"🐦",href:"#"},{ic:"📧",href:"mailto:stackorax@gmail.com"}].map((s,i) => (
+              {[
+  { ic: "📸", href: "https://www.instagram.com/stackorax/" },
+  { ic: "💼", href: "https://www.linkedin.com/company/stackorax/" },
+  { ic: "🌐", href: "https://stackorax.in" },
+  { ic: "📧", href: "mailto:info@stackorax.in" }
+].map((s,i) => (
                 <a key={i} href={s.href} style={{ width:34, height:34, borderRadius:9, background:"rgba(255,255,255,.04)", border:"1px solid rgba(255,255,255,.08)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:".82rem", textDecoration:"none", transition:"background .25s,transform .25s" }}
                   onMouseEnter={e=>{ e.currentTarget.style.background="rgba(108,99,255,.2)"; e.currentTarget.style.transform="translateY(-3px)"; }}
                   onMouseLeave={e=>{ e.currentTarget.style.background="rgba(255,255,255,.04)"; e.currentTarget.style.transform="none"; }}>
@@ -930,10 +935,12 @@ function Footer() {
           <div>
             <div className="font-syne" style={{ fontWeight:700, fontSize:".72rem", letterSpacing:".1em", textTransform:"uppercase", color:"rgba(240,240,255,.35)", marginBottom:16 }}>Services</div>
             {[
-              {label:"Full-Stack Web Apps", href:"#services"},
-              {label:"UI/UX Design",        href:"#services"},
-              {label:"Business Websites",   href:"#services"},
-            ].map(l => <a key={l.label} href={l.href} className="ft-link">{l.label}</a>)}
+  { label: "Business Websites", href: "#services" },
+  { label: "Full-Stack Web Apps", href: "#services" },
+  { label: "UI/UX Design", href: "#services" },
+  { label: "SEO Optimization", href: "#services" },
+  { label: "Website Maintenance", href: "#services" },
+].map(l => <a key={l.label} href={l.href} className="ft-link">{l.label}</a>)}
           </div>
           <div>
             <div className="font-syne" style={{ fontWeight:700, fontSize:".72rem", letterSpacing:".1em", textTransform:"uppercase", color:"rgba(240,240,255,.35)", marginBottom:16 }}>Company</div>
@@ -947,19 +954,19 @@ function Footer() {
           </div>
           <div>
             <div className="font-syne" style={{ fontWeight:700, fontSize:".72rem", letterSpacing:".1em", textTransform:"uppercase", color:"rgba(240,240,255,.35)", marginBottom:16 }}>Contact</div>
-            <a href="mailto:stackorax@gmail.com" className="ft-link">stackorax@gmail.com</a>
-            <a href="tel:+918838922503" className="ft-link">+91 88389 22503</a>
-            <a href="tel:+918489710814" className="ft-link">+91 84897 10814</a>
+            <a href="mailto:info@stackorax.in" className="ft-link">info@stackorax.in</a>
+            <a href="tel:+918838922503" className="ft-link">+91 8838922503</a>
+            <a href="tel:+918489710814" className="ft-link">+91 8489710814</a>
             <a href="https://wa.me/918838922503" target="_blank" rel="noreferrer"
               style={{ color:"#4ade80", fontSize:".85rem", textDecoration:"none", display:"block", transition:"opacity .2s" }}
               onMouseEnter={e=>e.currentTarget.style.opacity=".7"}
               onMouseLeave={e=>e.currentTarget.style.opacity="1"}>
-              → WhatsApp Us
+              → Chat on WhatsApp
             </a>
           </div>
         </div>
         <div style={{ borderTop:"1px solid rgba(255,255,255,.06)", paddingTop:22, display:"flex", alignItems:"center", justifyContent:"space-between", flexWrap:"wrap", gap:12 }}>
-          <div style={{ fontSize:".76rem", color:"rgba(240,240,255,.3)" }}>© 2025 <span style={{ color:"#9B95FF" }}>Stackorax</span>. All rights reserved. Made with ❤️ in Chennai.</div>
+          <div style={{ fontSize:".76rem", color:"rgba(240,240,255,.3)" }}>© {new Date().getFullYear()} <span style={{ color:"#9B95FF" }}>Stackorax Technologies</span>. All Rights Reserved. Made with ❤️ in Chennai, India.</div>
           <div style={{ display:"flex", gap:18 }}>
             {["Privacy Policy","Terms of Service"].map(l => <a key={l} href="#" style={{ fontSize:".76rem", color:"rgba(240,240,255,.3)", textDecoration:"none" }}>{l}</a>)}
           </div>
