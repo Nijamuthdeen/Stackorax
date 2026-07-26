@@ -846,7 +846,7 @@ function Contact() {
             </p>
           </div>
           {[
-            { ic:"📧", label:"Email", val:"stackorax@gmail.com", href:"mailto:stackorax@gmail.com", bg:"rgba(108,99,255,.14)" },
+            { ic:"📧", label:"Email", val:"info@stackorax.in", href:"mailto:info@stackorax.in", bg:"rgba(108,99,255,.14)" },
             { ic:"📞", label:"Phone", val:"+91 88389 22503  /  +91 84897 10814", href:"tel:+918838922503", bg:"rgba(108,99,255,.14)" },
             { ic:"💬", label:"WhatsApp", val:"Chat with us on WhatsApp →", href:"https://wa.me/918838922503", bg:"rgba(37,211,102,.1)", vc:"#4ade80" },
           ].map(ch => (
