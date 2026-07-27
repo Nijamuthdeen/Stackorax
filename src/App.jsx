@@ -2,13 +2,13 @@ import { useState, useEffect, useRef } from "react";
 import React from "react";
 
 import {
-   FaBolt,
-   FaReact,
+  FaBolt,
+  FaReact,
   FaJava,
   FaLeaf,
   FaDatabase,
   FaFigma,
-    FaLaptopCode,
+  FaLaptopCode,
   FaPalette,
   FaBuilding,
   FaLayerGroup,
@@ -16,11 +16,12 @@ import {
   FaInstagram,
   FaLinkedin,
   FaGithub,
-  FaGlobe, FaPhoneAlt,
+  FaGlobe,
+  FaPhoneAlt,
   FaEnvelope,
   FaWhatsapp,
 } from "react-icons/fa";
-import { SiTailwindcss , SiPostman } from "react-icons/si";
+import { SiTailwindcss, SiPostman } from "react-icons/si";
 
 const GLOBAL_CSS = `
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
@@ -95,30 +96,23 @@ body{font-family:'DM Sans',sans-serif;background:#020208;color:#f0f0ff;overflow-
 .inp:focus{border-color:#6C63FF;box-shadow:0 0 0 3px rgba(108,99,255,.12)}
 .inp::placeholder{color:rgba(240,240,255,.3)}
 .counter-num{font-family:'Syne',sans-serif}
+/* Team card 3D flip */
 .ft-link{color:rgba(240,240,255,.45);font-size:.85rem;text-decoration:none;display:block;margin-bottom:10px;transition:color .25s,padding-left .2s}
 .ft-link:hover{color:#9B95FF;padding-left:4px}
 .team-card:hover .team-inner{
-    transform: rotateY(180deg);
-}
-
-.team-card:hover .team-inner {
   transform: rotateY(180deg);
 }
-
 .team-front,
 .team-back {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 .team-inner {
   transform-style: preserve-3d;
 }
-
 .team-card:hover {
   transform: translateY(-8px);
 }
-
 .team-card {
   transition: transform .35s ease;
 }
@@ -629,7 +623,6 @@ function Navbar({ menuOpen, setMenuOpen }) {
       {/* MOBILE MENU */}
       <div className={`mm ${menuOpen ? "open" : ""}`}>
 
-
         {NAV_ITEMS.map((n) => (
           <a
             key={n}
@@ -1114,7 +1107,6 @@ function TechStack() {
       </div>
     </Sec>
   );
-
 }
 
 /* ── TEAM (4 members) ── */
