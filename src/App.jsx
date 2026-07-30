@@ -230,6 +230,24 @@ const PROJECTS = [
 
     imgAlt: "Modern fitness gym with strength training equipment",
   },
+
+  {
+  title: "RUDHRA Dental Care",
+  sub: "Premium Dental Clinic Website",
+  desc: "A modern concept redesign for a dental clinic featuring premium UI/UX, responsive design, appointment booking interface, smooth animations, and SEO-ready architecture.",
+  tech: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Spring Boot",
+    "MySQL"
+  ],
+  result: "Healthcare Website Concept",
+  demo: "https://rudhradental.vercel.app/",
+  github: "https://github.com/Nijamuthdeen/Rudhradental-website",
+  img: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1168&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=700&q=80",
+}
 ];
 
 /* ── 4 team members ── */
@@ -242,8 +260,8 @@ const TEAM = [
     from: "#6C63FF",
     to: "#4A42D4",
     skills: ["React", "Java", "Spring Boot", "MySQL"],
-    projects: "20+",
-    experience: "2+ Years",
+    projects: "5+",
+    experience: "1 Year",
   },
   {
     name: "Raja R",
@@ -253,8 +271,8 @@ const TEAM = [
     from: "#3B82F6",
     to: "#06B6D4",
     skills: ["React", "Spring Boot", "REST API", "MySQL"],
-    projects: "15+",
-    experience: "2+ Years",
+    projects: "3+",
+    experience: "8 months",
   },
   {
     name: "Mohamed Rifakath J",
@@ -264,8 +282,8 @@ const TEAM = [
     from: "#10B981",
     to: "#0EA5E9",
     skills: ["Java", "Spring Boot", "REST API", "MySQL"],
-    projects: "12+",
-    experience: "2+ Years",
+    projects: "3",
+    experience: "11 months",
   },
   {
     name: "Priyadarshini",
@@ -275,8 +293,8 @@ const TEAM = [
     from: "#EC4899",
     to: "#8B5CF6",
     skills: ["Figma", "UI/UX", "Branding", "Marketing"],
-    projects: "30+",
-    experience: "2+ Years",
+    projects: "4",
+    experience: "6 months",
   },
 ];
 
@@ -362,7 +380,7 @@ const PRICING = [
 const STATS = [
   { n: 2, s: "+", label: "Projects Delivered" },
   { n: 100, s: "%", label: "Client Satisfaction" },
-  { n: 4, s: "+", label: "Team Members" },
+  { n: 4, s: "", label: "Team Members" },
   { n: 0, s: "", label: "Years Experience", display: "Fresh" },
 ];
 
@@ -730,7 +748,7 @@ function Hero() {
 
 /* ── MARQUEE ── */
 function Marquee() {
-  const items = ["React", "Spring Boot", "Java", "MySQL", "UI/UX Design", "Web Apps", "SEO", "Tailwind CSS", "REST APIs"];
+  const items = ["React", "Spring Boot", "Java", "MySQL", "UI/UX Design","Figma", "Web Apps", "SEO", "Tailwind CSS", "REST APIs"];
   const all = [...items, ...items];
   return (
     <div style={{ overflow: "hidden", padding: "20px 0", background: "linear-gradient(135deg,#6C63FF,#4A42D4)" }}>
