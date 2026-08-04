@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/quote",
+      "destination": "https://docs.google.com/forms/d/e/1FAIpQLScuQzutfJ50fHNnzrnm1FKUYgBLig-GBTRKuRq0eBpCJTkhJw/viewform",
+      "permanent": false
+    }
+  ]
+}
