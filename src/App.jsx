@@ -190,66 +190,81 @@ const SERVICES = [
 /* ── Only 2 projects (Student Management removed) ── */
 const PROJECTS = [
   {
-    title: "Nisha Collection",
-    sub: "Retail Billing Web App",
-    desc: "Complete billing and inventory management system for a textile retail store. Features invoicing, stock tracking, GST calculations, and real-time dashboard analytics.",
-    tech: ["React", "Spring Boot", "MySQL"],
-    result: "Improved billing efficiency by 80%",
-    demo: "https://nisha-collection.vercel.app/",
-    img: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=700&q=80",
-    imgAlt: "Textile fabric store",
+    title: "Zareen Wear",
+    sub: "Premium Clothing & E-commerce",
+    desc: "A modern clothing brand platform showcasing premium T-shirts, product collections, and a responsive shopping experience with a premium black-and-gold visual identity.",
+    tech: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "E-commerce",
+      "Responsive Design",
+    ],
+    result: "Premium online presence for a clothing brand",
+    demo: "https://zareenwear.in",
+    img: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=700&q=80",
+    imgAlt: "Premium clothing and T-shirt collection",
+  },
+  {
+    title: "Brownie Bliss",
+    sub: "Bakery & Dessert Website",
+    desc: "A visually appealing dessert brand website designed to showcase bakery products with an inviting interface, attractive product imagery, and a responsive browsing experience.",
+    tech: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Responsive Design",
+      "UI/UX Design",
+    ],
+    result: "Modern digital storefront for a dessert brand",
+    demo: "https://brownie-bliss-beta.vercel.app/",
+    img: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=700&q=80",
+    imgAlt: "Chocolate brownies and desserts",
   },
   {
     title: "UV India",
     sub: "Interior & Construction Website",
-    desc: "Premium business showcase website for an interior design and construction company. Portfolio gallery, service pages, and SEO-optimized lead capture.",
+    desc: "Premium business showcase website for an interior design and construction company, featuring a portfolio gallery, service pages, and SEO-focused lead generation.",
     tech: ["React", "Tailwind CSS", "SEO"],
-    result: "3x increase in client inquiries",
+    result: "Professional business showcase and lead generation",
     demo: "https://uv-india.vercel.app/",
     img: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=700&q=80",
-    imgAlt: "Interior design and construction",
+    imgAlt: "Modern interior design",
   },
   {
     title: "Stoic Fitness",
     sub: "Discipline Today. Strength Tomorrow",
-
-    desc: "A premium fitness platform designed for modern gyms and personal trainers. Features workout programs, trainer profiles, transformation galleries, membership plans, BMI calculator, and responsive user experience.",
-
+    desc: "A premium fitness platform for gyms and personal trainers, featuring workout programs, trainer profiles, transformation galleries, membership plans, and a BMI calculator.",
     tech: [
       "React",
       "CSS3",
       "Framer Motion",
       "Responsive Design",
     ],
-
-    result: "Modern fitness platform with an engaging user experience",
-
+    result: "Engaging, responsive fitness platform",
     demo: "https://stoic-fitness.vercel.app/",
-
     img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=700&q=80",
-
-    imgAlt: "Modern fitness gym with strength training equipment",
+    imgAlt: "Modern fitness gym",
   },
-
   {
-  title: "RUDHRA Dental Care",
-  sub: "Premium Dental Clinic Website",
-  desc: "A modern concept redesign for a dental clinic featuring premium UI/UX, responsive design, appointment booking interface, smooth animations, and SEO-ready architecture.",
-  tech: [
-    "React",
-    "Vite",
-    "Tailwind CSS",
-    "Framer Motion",
-    "Spring Boot",
-    "MySQL"
-  ],
-  result: "Healthcare Website Concept",
-  demo: "https://rudhradental.vercel.app/",
-  github: "https://github.com/Nijamuthdeen/Rudhradental-website",
-  img: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1168&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=700&q=80",
-}
+    title: "RUDHRA Dental Care",
+    sub: "Premium Dental Clinic Website",
+    desc: "A modern dental clinic website concept featuring premium UI/UX, responsive layouts, an appointment-booking interface, smooth animations, and SEO-ready architecture.",
+    tech: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Spring Boot",
+      "MySQL",
+    ],
+    result: "Healthcare website concept",
+    demo: "https://rudhradental.vercel.app/",
+    github: "https://github.com/Nijamuthdeen/Rudhradental-website",
+    img: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=700&q=80",
+    imgAlt: "Modern dental clinic",
+  },
 ];
-
 /* ── 4 team members ── */
 const TEAM = [
   {
