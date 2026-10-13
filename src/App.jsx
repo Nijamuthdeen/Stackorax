@@ -279,10 +279,10 @@ const TEAM = [
     experience: "1 Year",
   },
   {
-    name: "Raja R",
+    name: "MuraliDharan B",
     role: "Full Stack Developer",
     tagline: "Building secure and scalable web applications.",
-    init: "RJ",
+    init: "MB",
     from: "#3B82F6",
     to: "#06B6D4",
     skills: ["React", "Spring Boot", "REST API", "MySQL"],
