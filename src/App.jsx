@@ -365,9 +365,30 @@ const TECHS = [
 ];
 
 const TESTIMONIALS = [
-  { name: "Arjun Mehta", role: "Founder, LaunchPad", av: "AM", text: "Stackorax delivered our dashboard in 3 weeks. The code quality and design are exceptional — they genuinely care about the product." },
-  { name: "Kavya Krishnan", role: "Owner, Nisha Collection", av: "KK", text: "Our billing system works flawlessly. The team understood our workflow perfectly and built exactly what we needed." },
-  { name: "Vikram Patel", role: "Director, UV India", av: "VP", text: "The website increased client inquiries 3x in the first month. Premium design, fast delivery, zero headaches." },
+  {
+    name: "Nazeer I",
+    role: "Founder, Zareen Wear",
+    av: "NI",
+    text: "The website gives our clothing brand a premium online presence. The design feels modern, the product presentation looks clean, and the overall experience matches our brand vision.",
+  },
+  {
+    name: "Dr. Rudhra",
+    role: "RUDHRA Dental Care",
+    av: "DR",
+    text: "The website concept presents our dental care brand in a professional and modern way. The clean layout, responsive design, and appointment-focused experience make it easy for visitors to explore our services.",
+  },
+  {
+    name: "Karthik S",
+    role: "Fitness Enthusiast, Stoic Fitness",
+    av: "KS",
+    text: "The fitness platform has a bold, modern design that fits the gym and fitness industry. The responsive layout and engaging presentation make exploring the platform a great experience.",
+  },
+  {
+    name: "Santhhosh Kumar",
+    role: "Director, UV India",
+    av: "VP",
+    text: "The website presents our interior design and construction services professionally. The portfolio layout and service presentation help communicate our work clearly to potential clients.",
+  },
 ];
 
 const PRICING = [
